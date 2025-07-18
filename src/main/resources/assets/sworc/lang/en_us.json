@@ -1,0 +1,18 @@
+{
+  "item.sworc.crystal": "Crystal",
+  "item.sworc.raw_plastic": "Raw Plastic",
+  "item.sworc.plastic": "Plastic",
+  "item.sworc.plastoid": "Plastoid",
+  "item.sworc.phase_one_blueprint": "Phase I Blueprint",
+  "item.sworc.phase_two_blueprint": "Phase II Blueprint",
+  "item.sworc.raw_plasma": "Raw Plasma",
+  "item.sworc.plasma": "Plasma",
+  "item.sworc.plasma_cell": "Plasma Cell",
+  "item.sworc.cell": "Cell",
+
+  "block.sworc.crystal_block": "Crystal Block",
+
+  "tooltip.sworc.plastoid": "§8§oUse it to craft Stormtrooper armor§r",
+
+  "creativetab.sworc.outer_rim_chronicles": "Outer Rim Chronicles"
+}

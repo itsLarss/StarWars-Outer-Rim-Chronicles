@@ -1,0 +1,27 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runClient" type="Application" factoryName="Application" singleton="false">
+    <envs>
+      <env name="MOD_CLASSES" value="$PROJECT_DIR$/../StarWars_OuterRimChronicles\build\sourcesSets\main" />
+      <env name="MCP_MAPPINGS" value="official_1.21.1" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.bootstrap.ForgeBootstrap" />
+    <module name="starwars_outerrimchronicles.main" />
+    <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 17 --assetsDir C:\Users\larss\.gradle\caches\forge_gradle\assets --gameDir . --mixin.config sworc.mixins.json" />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES &quot;-Dnet.minecraftforge.gradle.GradleStart.srg.srg-mcp=A:\Minecraft Mods\StarWars_OuterRimChronicles\build\createSrgToMcp\output.srg&quot; -Dmixin.env.remapRefMap=true &quot;-Dmixin.env.refMapRemappingFile=A:\Minecraft Mods\StarWars_OuterRimChronicles\build\createSrgToMcp\output.srg&quot; -Dforge.enabledGameTestNamespaces=sworc -Dforge.enableGameTest=true -Djava.net.preferIPv6Addresses=system -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <extension name="net.ashald.envfile">
+      <option name="IS_ENABLED" value="false" />
+      <option name="IS_SUBST" value="false" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+      </ENTRIES>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":prepareRunClientCompile" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>

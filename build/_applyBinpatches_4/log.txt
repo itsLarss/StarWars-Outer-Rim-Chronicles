@@ -1,0 +1,8 @@
+Java Launcher: C:\Users\larss\.jdks\corretto-21.0.5\bin\java.exe
+Arguments: '--clean, C:\Users\larss\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.21.1-20240808.132146\joined-1.21.1-20240808.132146-srg.jar, --output, C:\Users\larss\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.1\forge-1.21.1-52.1.1-binpatched.jar, --apply, C:\Users\larss\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.1\forge-1.21.1-52.1.1-binpatches.lzma'
+Classpath:
+ - C:\Users\larss\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.2.0\binarypatcher-1.2.0-fatjar.jar
+Working directory: A:\Minecraft Mods\StarWars_OuterRimChronicles\build\_applyBinpatches_4
+Main class: net.minecraftforge.binarypatcher.ConsoleTool
+====================================
+Could not delete output file: C:\Users\larss\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.1\forge-1.21.1-52.1.1-binpatched.jar

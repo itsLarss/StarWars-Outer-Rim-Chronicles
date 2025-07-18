@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component>
+  <configuration default="false" factoryName="Application" name="runData" singleton="false" type="Application">
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.bootstrap.ForgeBootstrap"/>
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES &quot;-Dnet.minecraftforge.gradle.GradleStart.srg.srg-mcp=A:\Minecraft Mods\StarWars_OuterRimChronicles\build\createSrgToMcp\output.srg&quot; -Dmixin.env.remapRefMap=true &quot;-Dmixin.env.refMapRemappingFile=A:\Minecraft Mods\StarWars_OuterRimChronicles\build\createSrgToMcp\output.srg&quot; -Djava.net.preferIPv6Addresses=system"/>
+    <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_data --assetIndex 17 --assetsDir C:\Users\larss\.gradle\caches\forge_gradle\assets --gameDir . --mod sworc --all --output &quot;A:\Minecraft Mods\StarWars_OuterRimChronicles\src\generated\resources&quot; --existing &quot;A:\Minecraft Mods\StarWars_OuterRimChronicles\src\main\resources&quot; --mixin.config sworc.mixins.json"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run-data"/>
+    <module name="starwars_outerrimchronicles.main"/>
+    <envs>
+      <env name="MOD_CLASSES" value="$PROJECT_DIR$\build\sourcesSets\main"/>
+      <env name="MCP_MAPPINGS" value="official_1.21.1"/>
+    </envs>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+      <option enabled="true" externalProjectPath="$PROJECT_DIR$" name="Gradle.BeforeRunTask" tasks=":prepareRunDataCompile"/>
+    </method>
+  </configuration>
+</component>

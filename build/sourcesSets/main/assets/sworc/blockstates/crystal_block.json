@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sworc:block/crystal_block"
+    }
+  }
+}
